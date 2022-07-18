@@ -9,7 +9,9 @@ module.exports = {
     defaultNetwork: 'localhost',
     networks: {
         hardhat: {},
-        localhost: {},
+        localhost: {
+      url: "http://23.88.68.53:8545",
+      accounts: []},
     }
 };
 
