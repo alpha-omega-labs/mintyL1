@@ -6,10 +6,10 @@ require("@nomiclabs/hardhat-waffle");
 module.exports = {
     solidity: "0.7.3",
 
-    defaultNetwork: 'localhost',
+    defaultNetwork: 'genesisd',
     networks: {
         hardhat: {},
-        localhost: {
+        genesisd: {
       url: "http://23.88.68.53:8545",
       gasPrice: 2000000000,
       chainId: 29,
